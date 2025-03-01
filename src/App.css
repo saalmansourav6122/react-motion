@@ -3,3 +3,21 @@
   margin: 0;
   box-sizing: border-box;
 }
+.container {
+  min-width: 1200px;
+  margin: 0 auto;
+  background-color: aliceblue;
+  height: 100vh;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+.box_one {
+  margin-top: 200px;
+  width: 200px;
+  height: 200px;
+  background: #f08;
+  border: 1px solid #f08;
+  border-radius: 15px;
+}
