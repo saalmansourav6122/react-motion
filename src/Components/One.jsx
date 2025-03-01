@@ -5,15 +5,9 @@ import { div } from "motion/react-client";
 function One() {
   return (
     <div className="container">
-      <div className="wrapper">
-        <motion.div
-          animate={{
-            scale: 2,
-            transition: { duration: 2 },
-          }}
-          className="box_one"
-        ></motion.div>
-      </div>
+      <motion.div className="header_line"></motion.div>
+
+      <h1 className="header">Lorem ipsum dolor sit amet.</h1>
     </div>
   );
 }
